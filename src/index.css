@@ -1,0 +1,45 @@
+html {
+    background-color: #2980b9;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: white;
+
+}
+
+.header {
+    font-size: 30px;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+}
+
+.tableOfTargets {
+    align-items: left;
+}
+
+.additionOfTargets {
+    font-family: Helvetica;
+    background-color: rgb(2, 84, 109);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+}
+
+.additionOfTargets:hover {
+    background-color: #6b98b6;
+}
+
+.tableOfTargets {
+    color: #2980b9;
+    border-collapse: collapse;
+    background-color: white;
+    width: 50%;
+}
+th, td {
+    border: 3px solid whitesmoke;
+    text-align: center;
+}
