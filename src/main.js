@@ -14,7 +14,6 @@ function createWindow() {
     }
   });
 
-  // Установите имя окна с использованием свойства 'name'
   mainWindow.name = 'myWindowName';
 
   mainWindow.loadFile('./src/index.html');
